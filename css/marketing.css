@@ -1,0 +1,420 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*---------section------------*/
+.section {
+  padding: 0 10vw;
+}
+
+.home {
+  background: #121111;
+}
+
+.home .txt {
+  opacity: 0;
+  font-family: "Monument Grotesk";
+  font-weight: normal;
+  font-size: 10vw;
+  line-height: 10vw;
+  color: #fff;
+  transform: translateY(100px);
+}
+
+.home.on .txt {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1s;
+}
+
+.home .txt01 {
+  opacity: 0;
+  font-family: "Monument Grotesk";
+  font-weight: normal;
+  font-size: 10vw;
+  line-height: 10vw;
+  color: #fff;
+  transform: translateY(100px);
+}
+
+.home.on .txt01 {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1.2s;
+}
+
+.home .txt02 {
+  opacity: 0;
+  font-family: "Monument Grotesk";
+  font-weight: normal;
+  font-size: 10vw;
+  line-height: 10vw;
+  color: #d1ed5d;
+  transform: translateY(100px);
+}
+
+.home.on .txt02 {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1.4s;
+}
+
+.home .img {
+  opacity: 0;
+  position: absolute;
+  top: 20vh;
+  background-color: #f1e2d8;
+  left: 55vw;
+  width: 31.25vw;
+  height: 46.875vw;
+  display: block;
+  overflow: hidden;
+}
+
+.home .img img {
+  width: 100%;
+  height: 100%;
+  background-color: #f1e2d8;
+}
+
+.home.on .img {
+  opacity: 1;
+  transition: 5s;
+}
+
+.home ul {
+  color: #fff;
+  font-family: "Monument Grotesk";
+  font-weight: normal;
+  font-size: 19px;
+  transform: translateY(-20px);
+}
+
+.home ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#fp-nav ul li a {
+}
+
+/*------------section--------------*/
+/*about*/
+
+.about {
+  font-family: "Noto Serif KR", serif;
+  background: #f9f9f9;
+  color: black;
+}
+
+.about h1 {
+  color: #c3c3c3;
+  font-size: 25px;
+  font-family: "Monument Grotesk";
+}
+
+.about h3 {
+  opacity: 0;
+  line-height: 10vw;
+  font-weight: normal;
+  font-size: 3vw;
+  margin-bottom: 2vh;
+}
+
+.about.on h3 {
+  opacity: 1;
+  transition: 1.2s;
+}
+
+.about .txt {
+  opacity: 0;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 5vh;
+  width: 100%;
+}
+
+.about.on .txt {
+  opacity: 1;
+  transition: 1.8s;
+}
+
+.about .txt02 {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  width: 100%;
+}
+
+.skill {
+  width: 100%;
+  height: 100px;
+}
+
+.skill > div {
+  height: 120px;
+  float: left;
+}
+
+.skill01 {
+  width: 320px;
+}
+
+.skill02 {
+  width: 120px;
+}
+
+.skill03 {
+  width: 180px;
+  transform: translateY(30px);
+}
+
+.skill04 {
+  width: 170px;
+  transform: translateY(30px);
+}
+
+.skill05 {
+  width: 170px;
+  transform: translateY(18px);
+}
+
+.skill06 {
+  transform: translateY(10px);
+}
+
+.skill07 {
+  width: 180px;
+  transform: translateY(27px);
+}
+
+.skill img {
+  width: 100%;
+  height: 100%;
+}
+/*----------------about-----------------*/
+/*----------------project-----------------*/
+
+.project {
+  background: #121111;
+  color: white;
+}
+
+.project .section_title {
+  text-align: center;
+  font-family: "Monument Grotesk";
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.project .title {
+  font-size: 25px;
+  font-family: "Monument Grotesk";
+  color: #c3c3c3;
+  margin-bottom: 30px;
+}
+
+.project .description {
+  font-family: "Noto Serif KR", serif;
+  position: relative;
+}
+
+.project .description h1 {
+  font-family: "Monument Grotesk";
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.project .description > div {
+  float: left;
+}
+
+.project .description .mobile {
+  position: absolute;
+  top: 0;
+  transform: translateX(250px);
+}
+
+.project .img {
+  width: 40%;
+}
+
+.project .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.project .txt {
+  width: 50%;
+  margin-left: 10%;
+}
+
+.project .txt h1 {
+  margin-bottom: 10px;
+}
+
+.project .explanation strong {
+  font-weight: bold;
+}
+
+.project .explanation01 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.project .explanation02 {
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+.project .button {
+  width: 450px;
+  height: 100px;
+  display: flex;
+}
+
+.project .button a {
+  height: 45px;
+}
+
+.project .button .github {
+  width: 150px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  display: flex;
+}
+
+.project .button .github .img {
+  width: 35px;
+  height: 20px;
+  transform: translateY(-15px);
+}
+
+.project img {
+  width: 100%;
+  height: 100%;
+}
+
+.project .button .github .view {
+  font-size: 11px;
+  transform: translateY(-12px);
+}
+
+.project .button .site {
+  width: 150px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: #0dcaf0;
+  color: white;
+  font-size: 11px;
+  margin-left: 10px;
+}
+
+.project .button .idea_sketch {
+  width: 150px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: #0dcaf0;
+  color: white;
+  font-size: 11px;
+  margin-left: 10px;
+}
+
+/*----------------project-----------------*/
+/*----------------Contacts-----------------*/
+
+.contacts {
+  font-family: "Monument Grotesk";
+  background: #f9f9f9;
+}
+
+.contacts div {
+  float: left;
+}
+
+.contacts h1 {
+  font-size: 9vw;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.contacts .img {
+  width: 50%;
+}
+
+.contacts .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.contacts .email {
+  width: 50%;
+}
+.contacts .email ul {
+  padding: 30px;
+}
+
+.contacts .email li {
+  width: 600px;
+  margin-bottom: 30px;
+}
+
+.contacts .email span {
+  text-decoration: underline;
+}
+/*----------------Contacts-----------------*/
+
+.origin {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.origin.position_left {
+  transform: translateX(-100px);
+}
+.origin.position_right {
+  transform: translateX(100px);
+}
+
+.origin.position_top {
+  transform: translateY(100px);
+}
+.origin.position_bottom {
+  transform: translateY(-100px);
+}
+
+.show .origin {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.show .origin.delay_00 {
+  transition-delay: 0.45s;
+}
+.show .origin.delay_01 {
+  transition-delay: 0.9s;
+}
+.show .origin.delay_02 {
+  transition-delay: 1.4s;
+}
+.show .origin.delay_03 {
+  transition-delay: 1.9s;
+}
+.show .origin.delay_04 {
+  transition-delay: 2.3s;
+}
