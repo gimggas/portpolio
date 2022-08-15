@@ -18,7 +18,6 @@
 .home {
   background: #121111;
 }
-
 .home .txt {
   opacity: 0;
   font-family: "Monument Grotesk";
@@ -90,20 +89,16 @@
   transition: 5s;
 }
 
-.home ul {
+.lnb {
   color: #fff;
   font-family: "Monument Grotesk";
   font-weight: normal;
   font-size: 19px;
-  transform: translateY(-20px);
 }
 
-.home ul li {
+.lnb li {
   display: inline-block;
   margin-right: 10px;
-}
-
-#fp-nav ul li a {
 }
 
 /*------------section--------------*/
@@ -161,40 +156,8 @@
 }
 
 .skill > div {
-  height: 120px;
+  width: 12.5%;
   float: left;
-}
-
-.skill01 {
-  width: 320px;
-}
-
-.skill02 {
-  width: 120px;
-}
-
-.skill03 {
-  width: 180px;
-  transform: translateY(30px);
-}
-
-.skill04 {
-  width: 170px;
-  transform: translateY(30px);
-}
-
-.skill05 {
-  width: 170px;
-  transform: translateY(18px);
-}
-
-.skill06 {
-  transform: translateY(10px);
-}
-
-.skill07 {
-  width: 180px;
-  transform: translateY(27px);
 }
 
 .skill img {
@@ -209,23 +172,19 @@
   color: white;
 }
 
-.project .section_title {
-  text-align: center;
-  font-family: "Monument Grotesk";
-  font-size: 40px;
-  font-weight: bold;
-}
-
 .project .title {
   font-size: 25px;
   font-family: "Monument Grotesk";
+}
+
+.project .title {
   color: #c3c3c3;
-  margin-bottom: 30px;
+  font-size: 25px;
+  font-family: "Monument Grotesk";
 }
 
 .project .description {
   font-family: "Noto Serif KR", serif;
-  position: relative;
 }
 
 .project .description h1 {
@@ -236,12 +195,6 @@
 
 .project .description > div {
   float: left;
-}
-
-.project .description .mobile {
-  position: absolute;
-  top: 0;
-  transform: translateX(250px);
 }
 
 .project .img {
@@ -256,10 +209,6 @@
 .project .txt {
   width: 50%;
   margin-left: 10%;
-}
-
-.project .txt h1 {
-  margin-bottom: 10px;
 }
 
 .project .explanation strong {
@@ -277,13 +226,10 @@
 }
 
 .project .button {
-  width: 450px;
+  width: 300px;
   height: 100px;
-  display: flex;
-}
 
-.project .button a {
-  height: 45px;
+  display: flex;
 }
 
 .project .button .github {
@@ -294,6 +240,9 @@
   border: 1px solid white;
   color: white;
   padding: 10px;
+}
+
+.project .button .github {
   display: flex;
 }
 
@@ -324,17 +273,6 @@
   margin-left: 10px;
 }
 
-.project .button .idea_sketch {
-  width: 150px;
-  height: 45px;
-  line-height: 45px;
-  text-align: center;
-  background-color: #0dcaf0;
-  color: white;
-  font-size: 11px;
-  margin-left: 10px;
-}
-
 /*----------------project-----------------*/
 /*----------------Contacts-----------------*/
 
@@ -343,40 +281,10 @@
   background: #f9f9f9;
 }
 
-.contacts div {
-  float: left;
-}
-
 .contacts h1 {
   font-size: 9vw;
-  margin-left: 30px;
-  margin-bottom: 50px;
 }
 
-.contacts .img {
-  width: 50%;
-}
-
-.contacts .img img {
-  width: 100%;
-  height: 100%;
-}
-
-.contacts .email {
-  width: 50%;
-}
-.contacts .email ul {
-  padding: 30px;
-}
-
-.contacts .email li {
-  width: 600px;
-  margin-bottom: 30px;
-}
-
-.contacts .email span {
-  text-decoration: underline;
-}
 /*----------------Contacts-----------------*/
 
 .origin {
@@ -411,10 +319,4 @@
 }
 .show .origin.delay_02 {
   transition-delay: 1.4s;
-}
-.show .origin.delay_03 {
-  transition-delay: 1.9s;
-}
-.show .origin.delay_04 {
-  transition-delay: 2.3s;
 }
